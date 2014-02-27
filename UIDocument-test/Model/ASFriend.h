@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ASFriend : NSObject
+@interface ASFriend : NSObject <NSCoding>
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSDate *birthdate;
