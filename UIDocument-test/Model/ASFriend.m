@@ -12,7 +12,6 @@
 #define kFriendKeyBirthdate @"birthdate"
 
 @implementation ASFriend
-
 @synthesize name = _name;
 @synthesize birthdate = _birthdate;
 

@@ -22,6 +22,7 @@
 		214FB65C18BF49F50092503A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 214FB65A18BF49F50092503A /* InfoPlist.strings */; };
 		214FB65E18BF49F50092503A /* UIDocument_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB65D18BF49F50092503A /* UIDocument_testTests.m */; };
 		214FB66A18BF4AE40092503A /* ASFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB66918BF4AE40092503A /* ASFriend.m */; };
+		214FB66D18BF4E050092503A /* ASFriendList.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB66C18BF4E050092503A /* ASFriendList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		214FB65D18BF49F50092503A /* UIDocument_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDocument_testTests.m; sourceTree = "<group>"; };
 		214FB66818BF4AE40092503A /* ASFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFriend.h; sourceTree = "<group>"; };
 		214FB66918BF4AE40092503A /* ASFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFriend.m; sourceTree = "<group>"; };
+		214FB66B18BF4E050092503A /* ASFriendList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFriendList.h; sourceTree = "<group>"; };
+		214FB66C18BF4E050092503A /* ASFriendList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFriendList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 			children = (
 				214FB66818BF4AE40092503A /* ASFriend.h */,
 				214FB66918BF4AE40092503A /* ASFriend.m */,
+				214FB66B18BF4E050092503A /* ASFriendList.h */,
+				214FB66C18BF4E050092503A /* ASFriendList.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			files = (
 				214FB64318BF49F50092503A /* ASAppDelegate.m in Sources */,
 				214FB66A18BF4AE40092503A /* ASFriend.m in Sources */,
+				214FB66D18BF4E050092503A /* ASFriendList.m in Sources */,
 				214FB64918BF49F50092503A /* ASViewController.m in Sources */,
 				214FB63F18BF49F50092503A /* main.m in Sources */,
 			);
