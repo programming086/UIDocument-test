@@ -21,6 +21,7 @@
 		214FB65418BF49F50092503A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214FB63618BF49F50092503A /* UIKit.framework */; };
 		214FB65C18BF49F50092503A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 214FB65A18BF49F50092503A /* InfoPlist.strings */; };
 		214FB65E18BF49F50092503A /* UIDocument_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB65D18BF49F50092503A /* UIDocument_testTests.m */; };
+		214FB66A18BF4AE40092503A /* ASFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB66918BF4AE40092503A /* ASFriend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		214FB65918BF49F50092503A /* UIDocument-testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIDocument-testTests-Info.plist"; sourceTree = "<group>"; };
 		214FB65B18BF49F50092503A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		214FB65D18BF49F50092503A /* UIDocument_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDocument_testTests.m; sourceTree = "<group>"; };
+		214FB66818BF4AE40092503A /* ASFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFriend.h; sourceTree = "<group>"; };
+		214FB66918BF4AE40092503A /* ASFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFriend.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		214FB63818BF49F50092503A /* UIDocument-test */ = {
 			isa = PBXGroup;
 			children = (
+				214FB66718BF4AC80092503A /* Model */,
 				214FB64118BF49F50092503A /* ASAppDelegate.h */,
 				214FB64218BF49F50092503A /* ASAppDelegate.m */,
 				214FB64418BF49F50092503A /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				214FB65A18BF49F50092503A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		214FB66718BF4AC80092503A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				214FB66818BF4AE40092503A /* ASFriend.h */,
+				214FB66918BF4AE40092503A /* ASFriend.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				214FB64318BF49F50092503A /* ASAppDelegate.m in Sources */,
+				214FB66A18BF4AE40092503A /* ASFriend.m in Sources */,
 				214FB64918BF49F50092503A /* ASViewController.m in Sources */,
 				214FB63F18BF49F50092503A /* main.m in Sources */,
 			);
