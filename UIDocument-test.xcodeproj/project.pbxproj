@@ -23,6 +23,8 @@
 		214FB65E18BF49F50092503A /* UIDocument_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB65D18BF49F50092503A /* UIDocument_testTests.m */; };
 		214FB66A18BF4AE40092503A /* ASFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB66918BF4AE40092503A /* ASFriend.m */; };
 		214FB66D18BF4E050092503A /* ASFriendList.m in Sources */ = {isa = PBXBuildFile; fileRef = 214FB66C18BF4E050092503A /* ASFriendList.m */; };
+		2179E2C518D704CA00F07D93 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2179E2C418D704CA00F07D93 /* SenTestingKit.framework */; };
+		2179E2C718D7050600F07D93 /* ASFriendListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2179E2C618D7050600F07D93 /* ASFriendListTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		214FB66918BF4AE40092503A /* ASFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFriend.m; sourceTree = "<group>"; };
 		214FB66B18BF4E050092503A /* ASFriendList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFriendList.h; sourceTree = "<group>"; };
 		214FB66C18BF4E050092503A /* ASFriendList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFriendList.m; sourceTree = "<group>"; };
+		2179E2C418D704CA00F07D93 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2179E2C618D7050600F07D93 /* ASFriendListTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFriendListTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2179E2C518D704CA00F07D93 /* SenTestingKit.framework in Frameworks */,
 				214FB65218BF49F50092503A /* XCTest.framework in Frameworks */,
 				214FB65418BF49F50092503A /* UIKit.framework in Frameworks */,
 				214FB65318BF49F50092503A /* Foundation.framework in Frameworks */,
@@ -107,6 +112,7 @@
 		214FB63118BF49F50092503A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2179E2C418D704CA00F07D93 /* SenTestingKit.framework */,
 				214FB63218BF49F50092503A /* Foundation.framework */,
 				214FB63418BF49F50092503A /* CoreGraphics.framework */,
 				214FB63618BF49F50092503A /* UIKit.framework */,
@@ -146,6 +152,7 @@
 			children = (
 				214FB65D18BF49F50092503A /* UIDocument_testTests.m */,
 				214FB65818BF49F50092503A /* Supporting Files */,
+				2179E2C618D7050600F07D93 /* ASFriendListTests.m */,
 			);
 			path = "UIDocument-testTests";
 			sourceTree = "<group>";
@@ -281,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				214FB65E18BF49F50092503A /* UIDocument_testTests.m in Sources */,
+				2179E2C718D7050600F07D93 /* ASFriendListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
