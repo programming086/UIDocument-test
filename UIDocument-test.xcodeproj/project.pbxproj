@@ -481,6 +481,7 @@
 				214FB66318BF49F50092503A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		214FB66418BF49F50092503A /* Build configuration list for PBXNativeTarget "UIDocument-testTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +490,7 @@
 				214FB66618BF49F50092503A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,8 @@
 
 #import "ASFriendList.h"
 
+#define kFriendListKeyArray @"array"
+
 @implementation ASFriendList
 @synthesize friends = _friends;
 
@@ -17,6 +19,26 @@
         _friends = [NSMutableArray new];
     }
     return self;
+}
+
+- (id)contentsForType:(NSString *)typeName error:(NSError *__autoreleasing *)outError {
+    NSMutableData *data = [NSMutableData new];
+    NSKeyedArchiver *archiver = [[NSKeyedArchiver alloc] initForWritingWithMutableData:data];
+    
+    [archiver encodeObject:_friends forKey:kFriendListKeyArray];
+    
+    [archiver finishEncoding];
+    return data;
+}
+
+- (BOOL)loadFromContents:(id)contents ofType:(NSString *)typeName error:(NSError *__autoreleasing *)outError {
+    NSData *data = (NSData *)contents;
+    
+    NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
+    
+    _friends = [unarchiver decodeObjectForKey:kFriendListKeyArray];
+    
+    return YES;
 }
 
 @end
